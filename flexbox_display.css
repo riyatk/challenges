@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+}
+.main{
+    display: flex;
+    min-height: 700px;
+    background-color: black;
+    gap: 10px;
+    border: 10px solid black;
+}
+.left{
+    display: flex;
+    width: 20%;
+    gap:10px;
+    flex-direction: column;
+}
+.l1{
+    background-color: red;
+    height:50%;
+}
+.l2{
+    background-color: white;
+    height: 50%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+}
+.top{
+    display: flex;
+    height: 20%;
+    gap:10px;
+
+}
+.t1{
+    background-color: aqua;
+    width: 50%;
+}
+.t2{
+    background-color: bisque;
+    width: 50%;
+}
+.bottom{
+    height: 80%;
+    display: flex;
+    gap: 10px;
+}
+.bleft{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bright{
+    width: 20%;
+    background-color: red;
+}
+.btop{
+   height: 50%; 
+   display: flex;
+   gap: 10px;
+}
+.bbottom{
+    height:50%;
+    display: flex;
+    gap: 10px;
+}
+.b1{
+    background-color: bisque;
+    width: 20%;
+}
+.b2{
+    background-color: white;
+    width: 80%;
+}
+.b3{
+    background-color: red;
+    width: 80%;
+}
+.b4{
+    background-color: aqua;
+    width: 20%;
+}
